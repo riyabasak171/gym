@@ -10,136 +10,137 @@
 </head>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <!-- <link rel="stylesheet" href="css/style.css"> -->
-    <style>
-        body{
-            margin: 0px;
-            padding:0px;
-            background-image: url('images/gum.jpg');     
-            font-family: 'Balsamiq Sans' , cursive;
-            /*background-size: 100% 100%; */
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        .left{
-            display: inline-block;
+
+<style>
+  body{
+      margin: 0px;
+      padding:0px;
+      background-image: url('images/gum.jpg');     
+      font-family: 'Balsamiq Sans' , cursive;
+      /*background-size: 100% 100%; */
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .left{
+      display: inline-block;
 
 
-            /*border: 2px solid red;*/
+      /*border: 2px solid red;*/
 
-            color: white;
-            position: absolute;
-            left: 34px;
-            top: 10px;
-            background-image: url('images/gymlogo.jpeg');
+      color: white;
+      position: absolute;
+      left: 34px;
+      top: 10px;
+      background-image: url('images/gymlogo.jpeg');
 
-        }
-        .left img{
-            width: 76px;
-            /* background-image: url('images/gymlogo.jpeg'); */
-        }
-        .left div{
-            text-align: center;
-        }
+  }
+  .left img{
+      width: 76px;
+      /* background-image: url('images/gymlogo.jpeg'); */
+  }
+  .left div{
+      text-align: center;
+  }
 
-        .mid{
-            /*border: 2px solid green;*/
-            color:white;
-            display: block;
-            margin: 15px auto;
-            width: 33%;
-            padding: 3px 3px;
+  .mid{
+      /*border: 2px solid green;*/
+      color:white;
+      display: block;
+      margin: 15px auto;
+      width: 33%;
+      padding: 3px 3px;
 
-            
-        }
-        .right{
-            position: absolute;
-            
-            /*border:2px solid yellow; */
-            color:white;
-            display:block;
-            right:34px;
-            top:20px;
-        }
-        .navbar{
-            display: inline-block;
+      
+  }
+  .right{
+      position: absolute;
+      
+      /*border:2px solid yellow; */
+      color:white;
+      display:block;
+      right:34px;
+      top:20px;
+  }
+  .navbar{
+      display: inline-block;
 
-        }
-        .navbar li{
-            display: inline-block;
-            font-size: 19px;
-        }
-        .navbar li a{
-            color:white;
-            text-decoration: none;
-            padding: 3px 3px;
-        }
-        .navbar li a:hover{
-            color:white;
-            text-decoration: none;
-            text-decoration: underline;
-        }
-        .btn{
-            margin: 0px 9px;
-            background-color: black;
-            color:white;
-            padding: 3px 21px;
-            border: 2px solid grey;
-            border-radius: 10px;
-            font-size: 15px;
-            cursor: pointer;
-            font-family: 'Balsamiq Sans' , cursive;
-        }
-        .btn:hover{
-            background-color: rgb(15, 14, 14);
-        }
+  }
+  .navbar li{
+      display: inline-block;
+      font-size: 19px;
+  }
+  .navbar li a{
+      color:white;
+      text-decoration: none;
+      padding: 3px 3px;
+  }
+  .navbar li a:hover{
+      color:white;
+      text-decoration: none;
+      text-decoration: underline;
+  }
+  .btn{
+      margin: 0px 9px;
+      background-color: black;
+      color:white;
+      padding: 3px 21px;
+      border: 2px solid grey;
+      border-radius: 10px;
+      font-size: 15px;
+      cursor: pointer;
+      font-family: 'Balsamiq Sans' , cursive;
+  }
+  .btn:hover{
+      background-color: rgb(15, 14, 14);
+  }
 
+ 
+  /* This portion is not mandatory here */
+  .container{
+      border: 2px solid white;
+      margin: 120px 80px;
+      padding: 100px 20px;
+      width: 33%;
+      border-radius:20px;
+      color:white;
+  }
+  .form-group input{
+      text-align: center;
+      display: block;
+      width: 200px;
+      border: 2px solid black;
+      margin: 3px auto;
+      font-family: 'Balsamiq Sans' , cursive;
+      border-radius: 8px;
+  }
+  .container h2{
+      text-align: center;
+  }
+  .container button{
+      border-radius: 8px;
+      display: block;
+      width: 208px;
+      font-family: 'Balsamiq Sans' , cursive;
+      margin: 7px auto;
+  }
+  
+  /* 
 
-        /* This portion is not mandatory here */
-        .container{
-            border: 2px solid white;
-            margin: 120px 80px;
-            padding: 100px 20px;
-            width: 33%;
-            border-radius:20px;
-            color:white;
-        }
-        .form-group input{
-            text-align: center;
-            display: block;
-            width: 200px;
-            border: 2px solid black;
-            margin: 3px auto;
-            font-family: 'Balsamiq Sans' , cursive;
-            border-radius: 8px;
-        }
-        .container h2{
-            text-align: center;
-        }
-        .container button{
-            border-radius: 8px;
-            display: block;
-            width: 208px;
-            font-family: 'Balsamiq Sans' , cursive;
-            margin: 7px auto;
-        }
-        
-        /* 
+ .navbar li a:hover, .navbar li a.active{
+      text-decoration: underline;
+  }
+  */
 
-       .navbar li a:hover, .navbar li a.active{
-            text-decoration: underline;
-        }
-        */
-
-        .con{
-            color:white;
-        }
-        .weight{
-            color:cadetblue;
-            text-align: center;
-            
-        }
-        
-    </style>
+  .con{
+      color:white;
+  }
+  .weight{
+      color:cadetblue;
+      text-align: center;
+      
+  }
+  
+</style>
 <body>
     <header class="header">
 
@@ -151,7 +152,7 @@
 
                 line-height: 0px;
                 font-size: 14px;
-                ">Riya Fitness</div>
+                ">Riya's Fitness</div>
         
         </div>
 
@@ -170,9 +171,11 @@
         
         <!--Right box for buttons-->
         <div class="right">
-            <button class="btn">Feedback</button>
-            <li><a href="Feedback.html"></a></li>
-            <class class="btn">Email Us</class>
+
+          
+            
+          
+
         </div>
     </header>
     <!-- <div class="container">
@@ -188,50 +191,12 @@
         </form>
     </div> -->
     <div class="con">
-    <h2>Risks associated with being overweight</h2>
-<p>Being overweight increases the risk of a number of serious diseases and health conditions. Below is a list of said risks, according to the Centers for Disease Control and Prevention (CDC):
-High blood pressure
-Higher levels of LDL cholesterol, which is widely considered "bad cholesterol," lower levels of HDL cholesterol, considered to be good cholesterol in moderation, and high levels of triglycerides
-Type II diabetes
-Coronary heart disease
-Stroke
-Gallbladder disease
-Osteoarthritis, a type of joint disease caused by breakdown of joint cartilage
-Sleep apnea and breathing problems
-Certain cancers (endometrial, breast, colon, kidney, gallbladder, liver)
-Low quality of life
-Mental illnesses such as clinical depression, anxiety, and others
-Body pains and difficulty with certain physical functions
-Generally, an increased risk of mortality compared to those with a healthy BMI</p>
-<h2>BMI table for children and teens, age 2-20</h2>
-The Centers for Disease Control and Prevention (CDC) recommends BMI categorization for children and teens between age 2 and 20.
+    
+
 </div>
 
 
-<div class="weight">
-<table border="2">
-    <tr>
-        <th>Category</th>
-        <th>Percentile Range</th>
-    </tr>
-    <tr>
-        <th>Underweight</th>
-        <th><5%</th>
-        
-    </tr>
-    <tr>
-        <th>Healthy weight</th>
-        <th>5% - 85%</th>
-    </tr>
-    <tr>
-        <th>At risk of overweight</th>
-        <th>85% - 95%</th>
-    </tr>
-    <tr>
-        <th>Overweight</th>
-        <th>>95%</th>
-    </tr>
-</table>
+
 
 
 
